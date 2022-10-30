@@ -7,7 +7,7 @@ This project is built using **[React](https://reactjs.org/)**, _and_ **[MUI](htt
 
 ## Implemented Features
 1. **Used Redux**: This project is simple and there was no need to use redux, but I have done with Redux
-2. **Pagenation**: Without pagenation, it takes a little long time to show all contacts list.
+2. **Pagination**: Without pagination, it takes a little long time to show all contacts list.
 
 ## To run on Local
 

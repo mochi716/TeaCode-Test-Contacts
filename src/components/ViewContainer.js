@@ -58,7 +58,7 @@ export default function ViewContainer() {
   }, []);
 
   useEffect(() => {
-    setSearchedList(allList.filter(x => (x.first_name + x.last_name).indexOf(search) !== -1));
+    setSearchedList(allList.filter(x => (x.first_name + x.last_name).toLowerCase().indexOf(search.toLowerCase()) !== -1));
   }, [search, allList])
 
   useEffect(() => {
